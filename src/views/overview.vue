@@ -1,3 +1,8 @@
+<script setup>
+import BarChart from '@/components/chart.vue';
+import Transaction from '@/components/Transaction.vue';
+</script>
+
 <template>
     <section class="min-h-screen mt-4">
         <div class="flex gap-3">
@@ -10,5 +15,16 @@
                 <p class="text-xl font-semibold">5,000,000,000,000</p>
             </div>
         </div>
+        <div class="flex flex-col mt-4">
+            <h3 class="text-xl font-semibold">Statitics</h3>
+            <BarChart />
+        </div>
+
+        <div class="w-[90%] mx-auto flex justify-between items-center mt-6">
+            <button class="py-2 px-10 bg-purple-500 text-white font-semibold rounded-xl">Expences</button>
+            <button class="py-2 px-10 bg-purple-500 text-white font-semibold rounded-xl">Incomes</button>
+        </div>
+
+        <Transaction />
     </section>
 </template>
