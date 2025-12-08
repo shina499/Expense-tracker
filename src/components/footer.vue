@@ -1,9 +1,12 @@
+<script setup>
+  import { useRoute } from 'vue-router';
+</script>
 <template>
   <footer
     class="bg-white w-full h-12 sticky bottom-0 left-0 flex justify-center items-center px-12"
   >
     <ul class="flex justify-between items-center w-full">
-      <li class="text-lg font-semibold">
+      <router-link to="/" class="text-lg font-semibold">
         <svg
           fill="#000000"
           version="1.1"
@@ -33,9 +36,9 @@
             </g>
           </g>
         </svg>
-      </li>
+      </router-link>
 
-      <li class="text-lg font-semibold">
+      <router-link to="/overview" class="text-lg font-semibold">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
@@ -48,7 +51,7 @@
             d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
           />
         </svg>
-      </li>
+     </router-link>
 
       <li class="w-12 h-12 rounded-full relative bottom-6 text-4xl bg-violet-500 text-white text-center">&plus;</li>
 
@@ -70,7 +73,7 @@
         </svg>
       </li>
 
-      <li class="text-lg font-semibold">
+      <li  class="text-lg font-semibold">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
