@@ -1,5 +1,6 @@
 <script setup>
   import { useRoute } from 'vue-router';
+  const emit = defineEmits(["open-add"]);
 </script>
 <template>
   <footer
@@ -53,7 +54,12 @@
         </svg>
      </router-link>
 
-      <li class="w-12 h-12 rounded-full relative bottom-6 text-4xl bg-violet-500 text-white text-center">&plus;</li>
+      <li
+  @click="emit('open-add')"
+  class="w-12 h-12 rounded-full relative bottom-6 text-4xl bg-violet-500 text-white text-center"
+>
+  +
+</li>
 
       <li class="text-lg font-semibold">
         <svg

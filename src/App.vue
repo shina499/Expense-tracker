@@ -11,7 +11,6 @@ import { useRoute } from 'vue-router';
     <div class="wrapper min-h-screen flex flex-col md:w-[400px] md:mx-auto">
       <Header />
       <RouterView />
-      <Footer />
     </div>
 
 </template>
