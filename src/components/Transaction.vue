@@ -30,7 +30,7 @@ const props = defineProps({
           :class="t.amount < 0 ? 'text-red-500' : 'text-green-500'"
           class="text-sm "
         >
-          {{ t.amount }}T
+          {{ t.amount }}$
         </p>
       </li>
     </ul>
