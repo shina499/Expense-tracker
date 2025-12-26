@@ -1,38 +1,87 @@
-# Vue-Expense-Tracker
+<div align="center">
 
-This template should help get you started developing with Vue 3 in Vite.
+  <img src="https://cdn-icons-png.flaticon.com/512/2654/2654290.png" width="120" alt="Expense Tracker Logo" />
 
-## Recommended IDE Setup
+  # 💸 Expense Tracker (Vue 3 + Tailwind)
+  
+  **یک اپلیکیشن مدیریت مالی شخصی، سریع، مدرن و بدون نیاز به دیتابیس!**
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+  [![Vue Version](https://img.shields.io/badge/Vue-3.x-42b883?style=for-the-badge&logo=vue.js)](https://vuejs.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0+-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## Recommended Browser Setup
+</div>
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 🌟 ویژگی‌های کلیدی
+* **مدیریت تراکنش‌ها:** ثبت درآمد و هزینه با دسته‌بندی مشخص.
+* **داشبورد آنالیز:** نمایش بصری وضعیت مالی با استفاده از Chart.js.
+* **ذخیره‌سازی محلی:** استفاده از `LocalStorage` برای ماندگاری داده‌ها بدون دیتابیس.
+* **طراحی Mobile-First:** کاملاً بهینه شده برای گوشی‌های هوشمند با استفاده از Tailwind CSS.
+* **رابط کاربری مدرن:** دارای فوتر چسبنده (Sticky) و فرم‌های انیمیشنی.
 
-## Project Setup
+---
 
-```sh
+### 🛠 تکنولوژی‌های استفاده شده
+
+| ابزار | نقش در پروژه |
+| :--- | :--- |
+| **Vue 3 (Composition API)** | هسته اصلی و منطق برنامه |
+| **Tailwind CSS** | طراحی ریسپانسیو و استایل‌دهی مدرن |
+| **Vue Router** | مدیریت جابجایی بین صفحات |
+| **Chart.js** | رسم نمودارهای تعاملی |
+| **LocalStorage API** | شبیه‌سازی دیتابیس در مرورگر |
+
+---
+
+### 🚀 راه‌اندازی سریع
+
+۱. **کلون کردن پروژه:**
+```bash
+git clone [https://github.com/your-username/expense-tracker-vue.git](https://github.com/your-username/expense-tracker-vue.git)
+
+```
+
+۲. **نصب وابستگی‌ها:**
+
+```bash
 npm install
+
 ```
 
-### Compile and Hot-Reload for Development
+۳. **اجرا در حالت توسعه:**
 
-```sh
+```bash
 npm run dev
+
 ```
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
+### 📂 ساختار پوشه‌بندی
+
+```text
+src/
+ ├── components/     # قطعات مشترک (Transaction, Footer, Chart)
+ ├── views/          # صفحات اصلی (Home, Overview)
+ ├── stores/         # مدیریت وضعیت داده‌ها (LocalStorage Logic)
+ └── router/         # کانفیگ مسیرها
+
 ```
+
+---
+
+### 📝 لیست کارهای آینده (Todo)
+
+* [ ] اضافه کردن قابلیت ویرایش تراکنش
+* [ ] خروجی PDF از گزارش ماهانه
+* [ ] تم تاریک (Dark Mode)
+* [ ] دسته‌بندی تراکنش‌ها با آیکون‌های مختلف
+
+---
+
+<div align="center">
+<p>ساخته شده با ❤️ توسط <b>Shina499</b></p>
+<a href="#top">برگشت به بالا ⬆️</a>
+</div>
